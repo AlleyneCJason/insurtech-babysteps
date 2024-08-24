@@ -1,12 +1,15 @@
 import streamlit as st
+import pandas as pd
+import numpy as np
+import plotly.graph_objects as go
 
 st.title("🎈 My new new app")
 st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
+    "Let's start building!"
 )
 
-st.write("🎈 More of the new app")
+st.write("Login process - test credentials")
 st.write(
-    "Let's try this."
+    "Your credentials determine your access to products"
 )
 
